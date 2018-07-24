@@ -1,0 +1,6 @@
+framework module MBSegueCollection {
+  umbrella header "MBSegueCollection-umbrella.h"
+
+  export *
+  module * { export * }
+}

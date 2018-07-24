@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2658282D20FE8779003710E4 /* data4.json in Resources */ = {isa = PBXBuildFile; fileRef = 2658282B20FE8779003710E4 /* data4.json */; };
+		2658282E20FE8779003710E4 /* data3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2658282C20FE8779003710E4 /* data3.json */; };
+		2658283020FE87CC003710E4 /* BeaconStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658282F20FE87CC003710E4 /* BeaconStruct.swift */; };
+		2658283220FE8859003710E4 /* simulatorWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658283120FE8859003710E4 /* simulatorWS.swift */; };
+		2658283420FF8C62003710E4 /* ObjectDetected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658283320FF8C61003710E4 /* ObjectDetected.swift */; };
+		2658283720FF8EE1003710E4 /* ProximityScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658283620FF8EE1003710E4 /* ProximityScanner.swift */; };
+		2658283920FFB863003710E4 /* SectorScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658283820FFB863003710E4 /* SectorScanner.swift */; };
+		2686D20E20FD053A0087D531 /* Zona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686D20B20FD053A0087D531 /* Zona.swift */; };
+		2686D20F20FD053A0087D531 /* Implementacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686D20C20FD053A0087D531 /* Implementacion.swift */; };
+		2686D21020FD053A0087D531 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686D20D20FD053A0087D531 /* Api.swift */; };
+		2686D21220FD07180087D531 /* AuparBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686D21120FD07180087D531 /* AuparBeacon.swift */; };
+		2686D21420FD07640087D531 /* BeaconID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686D21320FD07630087D531 /* BeaconID.swift */; };
+		2686D21620FD08EB0087D531 /* Acuerdo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686D21520FD08EB0087D531 /* Acuerdo.swift */; };
+		2686D21B20FD1F110087D531 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2686D21A20FD1F100087D531 /* data.json */; };
+		2686D21D20FD20A60087D531 /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2686D21C20FD20A60087D531 /* data2.json */; };
+		269C42C6210248AB0078A943 /* ImplementationStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C42C5210248AB0078A943 /* ImplementationStruct.swift */; };
+		269C42C8210259920078A943 /* ImplementationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C42C7210259920078A943 /* ImplementationProvider.swift */; };
+		26E1E5D22100F9360080D93F /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1E5D12100F9360080D93F /* Beacon.swift */; };
+		26E1E5D42100FA560080D93F /* Sector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1E5D32100FA560080D93F /* Sector.swift */; };
+		26E1E5D62100FA710080D93F /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1E5D52100FA710080D93F /* Zone.swift */; };
+		26E1E5D821011DDC0080D93F /* EstimoteProximityScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1E5D721011DDC0080D93F /* EstimoteProximityScanner.swift */; };
+		26E1E5DA210136180080D93F /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1E5D9210136180080D93F /* BeaconScanner.swift */; };
+		26E1E5DC210139890080D93F /* ImplementationScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1E5DB210139890080D93F /* ImplementationScanner.swift */; };
+		26F055922100F86200A07864 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F055912100F86200A07864 /* Implementation.swift */; };
+		26F5072220F6561600FA1598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5072120F6561600FA1598 /* AppDelegate.swift */; };
+		26F5072420F6561600FA1598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5072320F6561600FA1598 /* ViewController.swift */; };
+		26F5072720F6561600FA1598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F5072520F6561600FA1598 /* Main.storyboard */; };
+		26F5072920F6561700FA1598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F5072820F6561700FA1598 /* Assets.xcassets */; };
+		26F5072C20F6561700FA1598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F5072A20F6561700FA1598 /* LaunchScreen.storyboard */; };
+		26F5073720F6561700FA1598 /* EstimoteProximityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5073620F6561700FA1598 /* EstimoteProximityTests.swift */; };
+		26F5074220F6561700FA1598 /* EstimoteProximityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5074120F6561700FA1598 /* EstimoteProximityUITests.swift */; };
+		26F5075020F658D400FA1598 /* EstimoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5074F20F658D400FA1598 /* EstimoteManager.swift */; };
+		B5EE0AD2AE14F8A11CAE7520 /* Pods_EstimoteProximity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B4A5AA896588FC7C18DFE4 /* Pods_EstimoteProximity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F5073320F6561700FA1598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F5071620F6561600FA1598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F5071D20F6561600FA1598;
+			remoteInfo = EstimoteProximity;
+		};
+		26F5073E20F6561700FA1598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F5071620F6561600FA1598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F5071D20F6561600FA1598;
+			remoteInfo = EstimoteProximity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058EC85AF43563DCF0EF119B /* Pods_EstimoteProximityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstimoteProximityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2658282B20FE8779003710E4 /* data4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data4.json; sourceTree = "<group>"; };
+		2658282C20FE8779003710E4 /* data3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data3.json; sourceTree = "<group>"; };
+		2658282F20FE87CC003710E4 /* BeaconStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconStruct.swift; sourceTree = "<group>"; };
+		2658283120FE8859003710E4 /* simulatorWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simulatorWS.swift; sourceTree = "<group>"; };
+		2658283320FF8C61003710E4 /* ObjectDetected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetected.swift; sourceTree = "<group>"; };
+		2658283620FF8EE1003710E4 /* ProximityScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityScanner.swift; sourceTree = "<group>"; };
+		2658283820FFB863003710E4 /* SectorScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorScanner.swift; sourceTree = "<group>"; };
+		2686D20B20FD053A0087D531 /* Zona.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zona.swift; sourceTree = "<group>"; };
+		2686D20C20FD053A0087D531 /* Implementacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Implementacion.swift; sourceTree = "<group>"; };
+		2686D20D20FD053A0087D531 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		2686D21120FD07180087D531 /* AuparBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuparBeacon.swift; sourceTree = "<group>"; };
+		2686D21320FD07630087D531 /* BeaconID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconID.swift; sourceTree = "<group>"; };
+		2686D21520FD08EB0087D531 /* Acuerdo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acuerdo.swift; sourceTree = "<group>"; };
+		2686D21A20FD1F100087D531 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		2686D21C20FD20A60087D531 /* data2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		269C42C5210248AB0078A943 /* ImplementationStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationStruct.swift; sourceTree = "<group>"; };
+		269C42C7210259920078A943 /* ImplementationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationProvider.swift; sourceTree = "<group>"; };
+		26E1E5D12100F9360080D93F /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		26E1E5D32100FA560080D93F /* Sector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sector.swift; sourceTree = "<group>"; };
+		26E1E5D52100FA710080D93F /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		26E1E5D721011DDC0080D93F /* EstimoteProximityScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimoteProximityScanner.swift; sourceTree = "<group>"; };
+		26E1E5D9210136180080D93F /* BeaconScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconScanner.swift; sourceTree = "<group>"; };
+		26E1E5DB210139890080D93F /* ImplementationScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationScanner.swift; sourceTree = "<group>"; };
+		26F055912100F86200A07864 /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
+		26F5071E20F6561600FA1598 /* EstimoteProximity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstimoteProximity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F5072120F6561600FA1598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26F5072320F6561600FA1598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26F5072620F6561600FA1598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F5072820F6561700FA1598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F5072B20F6561700FA1598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F5072D20F6561700FA1598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F5073220F6561700FA1598 /* EstimoteProximityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimoteProximityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F5073620F6561700FA1598 /* EstimoteProximityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimoteProximityTests.swift; sourceTree = "<group>"; };
+		26F5073820F6561700FA1598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F5073D20F6561700FA1598 /* EstimoteProximityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimoteProximityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F5074120F6561700FA1598 /* EstimoteProximityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimoteProximityUITests.swift; sourceTree = "<group>"; };
+		26F5074320F6561700FA1598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F5074F20F658D400FA1598 /* EstimoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimoteManager.swift; sourceTree = "<group>"; };
+		3E908A5DBBB81B187DC61CE7 /* Pods-EstimoteProximity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximity.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity.release.xcconfig"; sourceTree = "<group>"; };
+		818B1AA59593A4DF9B99D73A /* Pods_EstimoteProximityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstimoteProximityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B4A5AA896588FC7C18DFE4 /* Pods_EstimoteProximity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstimoteProximity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D2DFA1DE54273EABDBF11C /* Pods-EstimoteProximity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F5071B20F6561600FA1598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EE0AD2AE14F8A11CAE7520 /* Pods_EstimoteProximity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F5072F20F6561700FA1598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F5073A20F6561700FA1598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2658283520FF8E0E003710E4 /* Detect */ = {
+			isa = PBXGroup;
+			children = (
+				26F055932100F86900A07864 /* models */,
+				26E1E5D9210136180080D93F /* BeaconScanner.swift */,
+				26E1E5D721011DDC0080D93F /* EstimoteProximityScanner.swift */,
+				2658283320FF8C61003710E4 /* ObjectDetected.swift */,
+				2658283620FF8EE1003710E4 /* ProximityScanner.swift */,
+				2658283820FFB863003710E4 /* SectorScanner.swift */,
+				26E1E5DB210139890080D93F /* ImplementationScanner.swift */,
+				269C42C5210248AB0078A943 /* ImplementationStruct.swift */,
+				269C42C7210259920078A943 /* ImplementationProvider.swift */,
+			);
+			path = Detect;
+			sourceTree = "<group>";
+		};
+		2686D21920FD19080087D531 /* Beacons */ = {
+			isa = PBXGroup;
+			children = (
+				2686D21520FD08EB0087D531 /* Acuerdo.swift */,
+				2686D21320FD07630087D531 /* BeaconID.swift */,
+				2686D20D20FD053A0087D531 /* Api.swift */,
+				2686D21120FD07180087D531 /* AuparBeacon.swift */,
+				2686D20C20FD053A0087D531 /* Implementacion.swift */,
+				2686D20B20FD053A0087D531 /* Zona.swift */,
+			);
+			name = Beacons;
+			sourceTree = "<group>";
+		};
+		2686D21E20FD20AC0087D531 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2686D21A20FD1F100087D531 /* data.json */,
+				2686D21C20FD20A60087D531 /* data2.json */,
+				2658282C20FE8779003710E4 /* data3.json */,
+				2658282B20FE8779003710E4 /* data4.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		26F055932100F86900A07864 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				26E1E5D12100F9360080D93F /* Beacon.swift */,
+				26F055912100F86200A07864 /* Implementation.swift */,
+				26E1E5D32100FA560080D93F /* Sector.swift */,
+				26E1E5D52100FA710080D93F /* Zone.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		26F5071520F6561600FA1598 = {
+			isa = PBXGroup;
+			children = (
+				26F5072020F6561600FA1598 /* EstimoteProximity */,
+				26F5073520F6561700FA1598 /* EstimoteProximityTests */,
+				26F5074020F6561700FA1598 /* EstimoteProximityUITests */,
+				26F5071F20F6561600FA1598 /* Products */,
+				5008B22F37F084F3F32EBE5C /* Pods */,
+				4F2EB7F889F569BD82EC2F62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26F5071F20F6561600FA1598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F5071E20F6561600FA1598 /* EstimoteProximity.app */,
+				26F5073220F6561700FA1598 /* EstimoteProximityTests.xctest */,
+				26F5073D20F6561700FA1598 /* EstimoteProximityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F5072020F6561600FA1598 /* EstimoteProximity */ = {
+			isa = PBXGroup;
+			children = (
+				2686D21E20FD20AC0087D531 /* Resources */,
+				2686D21920FD19080087D531 /* Beacons */,
+				26F5072120F6561600FA1598 /* AppDelegate.swift */,
+				26F5072320F6561600FA1598 /* ViewController.swift */,
+				26F5072520F6561600FA1598 /* Main.storyboard */,
+				26F5072820F6561700FA1598 /* Assets.xcassets */,
+				26F5072A20F6561700FA1598 /* LaunchScreen.storyboard */,
+				26F5072D20F6561700FA1598 /* Info.plist */,
+				26F5074F20F658D400FA1598 /* EstimoteManager.swift */,
+				2658282F20FE87CC003710E4 /* BeaconStruct.swift */,
+				2658283120FE8859003710E4 /* simulatorWS.swift */,
+				2658283520FF8E0E003710E4 /* Detect */,
+			);
+			path = EstimoteProximity;
+			sourceTree = "<group>";
+		};
+		26F5073520F6561700FA1598 /* EstimoteProximityTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F5073620F6561700FA1598 /* EstimoteProximityTests.swift */,
+				26F5073820F6561700FA1598 /* Info.plist */,
+			);
+			path = EstimoteProximityTests;
+			sourceTree = "<group>";
+		};
+		26F5074020F6561700FA1598 /* EstimoteProximityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26F5074120F6561700FA1598 /* EstimoteProximityUITests.swift */,
+				26F5074320F6561700FA1598 /* Info.plist */,
+			);
+			path = EstimoteProximityUITests;
+			sourceTree = "<group>";
+		};
+		4F2EB7F889F569BD82EC2F62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B4A5AA896588FC7C18DFE4 /* Pods_EstimoteProximity.framework */,
+				058EC85AF43563DCF0EF119B /* Pods_EstimoteProximityTests.framework */,
+				818B1AA59593A4DF9B99D73A /* Pods_EstimoteProximityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5008B22F37F084F3F32EBE5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1D2DFA1DE54273EABDBF11C /* Pods-EstimoteProximity.debug.xcconfig */,
+				3E908A5DBBB81B187DC61CE7 /* Pods-EstimoteProximity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F5071D20F6561600FA1598 /* EstimoteProximity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F5074620F6561700FA1598 /* Build configuration list for PBXNativeTarget "EstimoteProximity" */;
+			buildPhases = (
+				36C33E99D91EEDD33F9B159A /* [CP] Check Pods Manifest.lock */,
+				26F5071A20F6561600FA1598 /* Sources */,
+				26F5071B20F6561600FA1598 /* Frameworks */,
+				26F5071C20F6561600FA1598 /* Resources */,
+				32B6F08A82E6E418235CE4EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EstimoteProximity;
+			productName = EstimoteProximity;
+			productReference = 26F5071E20F6561600FA1598 /* EstimoteProximity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F5073120F6561700FA1598 /* EstimoteProximityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F5074920F6561700FA1598 /* Build configuration list for PBXNativeTarget "EstimoteProximityTests" */;
+			buildPhases = (
+				26F5072E20F6561700FA1598 /* Sources */,
+				26F5072F20F6561700FA1598 /* Frameworks */,
+				26F5073020F6561700FA1598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F5073420F6561700FA1598 /* PBXTargetDependency */,
+			);
+			name = EstimoteProximityTests;
+			productName = EstimoteProximityTests;
+			productReference = 26F5073220F6561700FA1598 /* EstimoteProximityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26F5073C20F6561700FA1598 /* EstimoteProximityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F5074C20F6561700FA1598 /* Build configuration list for PBXNativeTarget "EstimoteProximityUITests" */;
+			buildPhases = (
+				26F5073920F6561700FA1598 /* Sources */,
+				26F5073A20F6561700FA1598 /* Frameworks */,
+				26F5073B20F6561700FA1598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F5073F20F6561700FA1598 /* PBXTargetDependency */,
+			);
+			name = EstimoteProximityUITests;
+			productName = EstimoteProximityUITests;
+			productReference = 26F5073D20F6561700FA1598 /* EstimoteProximityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F5071620F6561600FA1598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Denis Vásquez";
+				TargetAttributes = {
+					26F5071D20F6561600FA1598 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					26F5073120F6561700FA1598 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 26F5071D20F6561600FA1598;
+					};
+					26F5073C20F6561700FA1598 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 26F5071D20F6561600FA1598;
+					};
+				};
+			};
+			buildConfigurationList = 26F5071920F6561600FA1598 /* Build configuration list for PBXProject "EstimoteProximity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F5071520F6561600FA1598;
+			productRefGroup = 26F5071F20F6561600FA1598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F5071D20F6561600FA1598 /* EstimoteProximity */,
+				26F5073120F6561700FA1598 /* EstimoteProximityTests */,
+				26F5073C20F6561700FA1598 /* EstimoteProximityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F5071C20F6561600FA1598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F5072C20F6561700FA1598 /* LaunchScreen.storyboard in Resources */,
+				26F5072920F6561700FA1598 /* Assets.xcassets in Resources */,
+				2658282D20FE8779003710E4 /* data4.json in Resources */,
+				2658282E20FE8779003710E4 /* data3.json in Resources */,
+				26F5072720F6561600FA1598 /* Main.storyboard in Resources */,
+				2686D21D20FD20A60087D531 /* data2.json in Resources */,
+				2686D21B20FD1F110087D531 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F5073020F6561700FA1598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F5073B20F6561700FA1598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32B6F08A82E6E418235CE4EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ASHorizontalScrollView/ASHorizontalScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/BadgeSwift/BadgeSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
+				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONWebToken/JWT.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/MBSegueCollection/MBSegueCollection.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/MobilePlayer/MobilePlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/StyleDecorator/StyleDecorator.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIconFont/SwiftIconFont.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASHorizontalScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BadgeSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteBluetoothScanning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteProximitySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBSegueCollection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobilePlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StyleDecorator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIconFont.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36C33E99D91EEDD33F9B159A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EstimoteProximity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F5071A20F6561600FA1598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2658283920FFB863003710E4 /* SectorScanner.swift in Sources */,
+				2658283220FE8859003710E4 /* simulatorWS.swift in Sources */,
+				2686D21220FD07180087D531 /* AuparBeacon.swift in Sources */,
+				2686D21620FD08EB0087D531 /* Acuerdo.swift in Sources */,
+				2658283020FE87CC003710E4 /* BeaconStruct.swift in Sources */,
+				26E1E5D22100F9360080D93F /* Beacon.swift in Sources */,
+				26F055922100F86200A07864 /* Implementation.swift in Sources */,
+				26E1E5D62100FA710080D93F /* Zone.swift in Sources */,
+				2658283420FF8C62003710E4 /* ObjectDetected.swift in Sources */,
+				2658283720FF8EE1003710E4 /* ProximityScanner.swift in Sources */,
+				26E1E5D821011DDC0080D93F /* EstimoteProximityScanner.swift in Sources */,
+				2686D21020FD053A0087D531 /* Api.swift in Sources */,
+				26E1E5DA210136180080D93F /* BeaconScanner.swift in Sources */,
+				269C42C6210248AB0078A943 /* ImplementationStruct.swift in Sources */,
+				269C42C8210259920078A943 /* ImplementationProvider.swift in Sources */,
+				2686D20F20FD053A0087D531 /* Implementacion.swift in Sources */,
+				26F5075020F658D400FA1598 /* EstimoteManager.swift in Sources */,
+				26E1E5DC210139890080D93F /* ImplementationScanner.swift in Sources */,
+				2686D20E20FD053A0087D531 /* Zona.swift in Sources */,
+				26F5072420F6561600FA1598 /* ViewController.swift in Sources */,
+				2686D21420FD07640087D531 /* BeaconID.swift in Sources */,
+				26F5072220F6561600FA1598 /* AppDelegate.swift in Sources */,
+				26E1E5D42100FA560080D93F /* Sector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F5072E20F6561700FA1598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F5073720F6561700FA1598 /* EstimoteProximityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F5073920F6561700FA1598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F5074220F6561700FA1598 /* EstimoteProximityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F5073420F6561700FA1598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F5071D20F6561600FA1598 /* EstimoteProximity */;
+			targetProxy = 26F5073320F6561700FA1598 /* PBXContainerItemProxy */;
+		};
+		26F5073F20F6561700FA1598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F5071D20F6561600FA1598 /* EstimoteProximity */;
+			targetProxy = 26F5073E20F6561700FA1598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F5072520F6561600FA1598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F5072620F6561600FA1598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F5072A20F6561700FA1598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F5072B20F6561700FA1598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F5074420F6561700FA1598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26F5074520F6561700FA1598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F5074720F6561700FA1598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D2DFA1DE54273EABDBF11C /* Pods-EstimoteProximity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QFB73GJJP;
+				INFOPLIST_FILE = EstimoteProximity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aritecla.EstimoteProximity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F5074820F6561700FA1598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E908A5DBBB81B187DC61CE7 /* Pods-EstimoteProximity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QFB73GJJP;
+				INFOPLIST_FILE = EstimoteProximity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aritecla.EstimoteProximity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26F5074A20F6561700FA1598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EstimoteProximityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aritecla.EstimoteProximityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EstimoteProximity.app/EstimoteProximity";
+			};
+			name = Debug;
+		};
+		26F5074B20F6561700FA1598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EstimoteProximityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aritecla.EstimoteProximityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EstimoteProximity.app/EstimoteProximity";
+			};
+			name = Release;
+		};
+		26F5074D20F6561700FA1598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EstimoteProximityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aritecla.EstimoteProximityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EstimoteProximity;
+			};
+			name = Debug;
+		};
+		26F5074E20F6561700FA1598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EstimoteProximityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aritecla.EstimoteProximityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EstimoteProximity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F5071920F6561600FA1598 /* Build configuration list for PBXProject "EstimoteProximity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F5074420F6561700FA1598 /* Debug */,
+				26F5074520F6561700FA1598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F5074620F6561700FA1598 /* Build configuration list for PBXNativeTarget "EstimoteProximity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F5074720F6561700FA1598 /* Debug */,
+				26F5074820F6561700FA1598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F5074920F6561700FA1598 /* Build configuration list for PBXNativeTarget "EstimoteProximityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F5074A20F6561700FA1598 /* Debug */,
+				26F5074B20F6561700FA1598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F5074C20F6561700FA1598 /* Build configuration list for PBXNativeTarget "EstimoteProximityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F5074D20F6561700FA1598 /* Debug */,
+				26F5074E20F6561700FA1598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F5071620F6561600FA1598 /* Project object */;
+}
